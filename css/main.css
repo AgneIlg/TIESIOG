@@ -1,0 +1,55 @@
+body {
+    background-color: whitesmoke;
+}
+main {
+width: 60%;
+margin-top: 10%;
+margin-left: 25%;
+overflow: hidden;
+}
+
+.left-column,
+.right-column{
+    width: 50%;
+    float: left;
+}
+.text-container{
+    margin-top: 50px;
+}
+h1 {
+    margin: 0;
+    font-size: 100px;
+    font-family:Tahoma;
+    color: black;
+}
+h2 {
+    margin: 3;
+    font-size: 30px;
+    font-family:Tahoma;
+    color: black; 
+}
+h3 {
+    margin: 0;
+    font-size: 15px;
+    font-family:Tahoma;
+    color: black;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.two-columns {
+    column-count: 2;
+}
+li {
+    color: red;
+    padding-bottom: 10px;
+}
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+}
+img {
+    width: 50%;
+}
